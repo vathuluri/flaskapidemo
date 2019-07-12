@@ -7,11 +7,7 @@ app = Flask(__name__)
 
 # configure pusher object
 pusher = Pusher(
-    app_id = "822070",
-    key = "e69f36546a5ff203b1df",
-    secret = "0925a6360bd7394b32ca",
-    cluster = "us2",
-    ssl=True
+  
 )
 
 # index route, shows index.html view
